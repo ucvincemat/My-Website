@@ -144,6 +144,30 @@ footer {
     }    
 }
 
+/* gallery */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 15px;
+}
+
+.thumbnail {
+    filter: opacity(100%);
+    transition: filter 0.1s ease 0s, transform 0.1s ease 0s;
+    width: auto;
+    height: 240px;
+    object-position: center;
+}
+
+.thumbnail:hover,
+#helper:hover {
+    filter: opacity(80%);
+    transform: translateY(-0.1em);
+}
+
 /* misc stuff */
 
 .d-flex {
