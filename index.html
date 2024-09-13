@@ -4,15 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Vince Mateo</title>
+    <link rel="icon" href="vnm.ico" type="image/x-icon">
+    <title>VNM Website</title>
 
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
-    <section class="header">
+    <header>
         <div class="text-align-center">
-            <h1 class="big-text">Vince Mateo</h1>
+            <h1 class="header-text">Vince Mateo</h1>
+        </div>
+    </header>
+    <section class="main-thing d-flex">
+        <video autoplay muted loop id="typing-video">
+            <source src="video/iamtyping.webm" type="video/webm">
+        </video>
+        <div class="description">
+            <p>
+                Hi! My name is <b>Vince</b>, but you can call me <b>Vince!</b><br>
+                I am an undergraduate of Information Technology, majoring in Web Technologies.
+            </p>
+
+            <div class="selections d-flex">
+                <button id="hobbies-button">
+                    HOBBIES
+                </button>
+
+                <button id="gallery-button">
+                    GALLERY
+                </button>
+            </div>
         </div>
     </section>
+    <footer>
+        <p>You can find me elsewhere:</p>
+        <div class="d-flex">
+            <a href="https://www.facebook.com/vince.mateo.9887/" target="_blank"> <img src="img/icons/facebook.webp" draggable="false" (dragstart)="false;" title="Facebook" class="undraggable icons" width="42" height="42"></a>
+            <a href="https://github.com/ucvincemat/" target="_blank"> <img src="img/icons/github.webp" draggable="false" (dragstart)="false;" title="Github" class="undraggable icons" width="42" height="42"></a>
+        </div>
+    </footer>
 </body>
 </html>
