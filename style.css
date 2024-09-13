@@ -26,6 +26,19 @@ button:hover {
     border-color: black;
 }
 
+.back-button {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 900;
+    opacity: 69%;
+    transition: opacity 0.12s cubic-bezier(0,1.3,0.9,1.5) 0s;
+  }
+  
+  .back-button {
+    opacity: 100%
+  }
+
 /* index stuff */
 
 header {
@@ -84,6 +97,36 @@ footer {
   
 .icons:hover {
     filter: opacity(100%) grayscale(0%);
+}
+
+/* hobbies stuff */
+
+.hobby {
+    height: 14vw;
+    margin: 20px;
+    padding: 25px;
+}
+
+.hobby img {
+    width: 250px;
+    margin-right: 25px;
+}
+
+.suppliment {
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+#art {
+    background-color: #180004;
+}
+
+#music {
+    background-color: #102110;
+}
+
+#games {
+    background-color: #0B0A2F;
 }
 
 /* misc stuff */
